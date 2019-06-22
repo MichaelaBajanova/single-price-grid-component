@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	background-color: #e5eff5;
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+.container {
+	width: 640px;
+	margin: auto;
+	margin-top: 150px;
+	box-shadow: 0px 0px 30px 0px #c8dce9;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 220px 270px;
+}
+
+.container > div {
+	padding: 35px;
+}
+
+.about {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.about > h1 {
+	color: #2ab2af;
+	font-weight: 700;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+.about > h2 {
+	color: #c0df34;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.about > p {
+	color: #98a6bd;
+	line-height: 25px;
+	margin: 0px;
+}
+
+.subscription {
+	background-color: #2ab2af;
+	color: #fff;
+}
+
+.subscription > p {
+	margin-top: 5px;
+}
+
+.price-info {
+	color: #79dbd7;
+	margin-left: 10px;
+	position: absolute;
+	margin: 8px 12px;
+}
+
+.price {
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.sign-up-button {
+	background-color: #c0df34;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: 'Karla', sans-serif;
+	color: #fff;
+	width: 250px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	box-shadow: 0px 10px 10px 0px #27a5a3;
+}
+
+.why-us {
+	background-color: #48bfbd;
+	color: #fff;
+}
+
+.why-us > ul {
+	list-style: none;
+	padding-left: 0px;
+	color: #79dbd7;
+	font-size: 14px;
+}
