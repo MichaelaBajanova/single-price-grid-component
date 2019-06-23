@@ -2,7 +2,6 @@ body {
 	margin: 0;
 	background-color: #e5eff5;
 	font-family: 'Karla', sans-serif;
-	font-size: 16px;
 }
 
 h2 {
@@ -23,7 +22,7 @@ h2 {
 	grid-template-rows: 220px 270px;
 }
 
-.container > div {
+.container div {
 	padding: 35px;
 }
 
@@ -32,20 +31,20 @@ h2 {
 	grid-column-end: 3;
 }
 
-.about > h1 {
+.about h1 {
 	color: #2ab2af;
 	font-weight: 700;
 	font-size: 24px;
 	margin-bottom: 25px;
 }
 
-.about > h2 {
+.about h2 {
 	color: #c0df34;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
 
-.about > p {
+.about p {
 	color: #98a6bd;
 	line-height: 25px;
 	margin: 0px;
@@ -74,6 +73,7 @@ h2 {
 }
 
 .sign-up-button {
+	cursor: pointer;
 	background-color: #c0df34;
 	font-size: 16px;
 	font-weight: 700;
@@ -92,9 +92,30 @@ h2 {
 	color: #fff;
 }
 
-.why-us > ul {
+.why-us ul {
 	list-style: none;
 	padding-left: 0px;
 	color: #79dbd7;
 	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.container {
+		max-width: 320px;
+		margin: auto;
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+
 }
